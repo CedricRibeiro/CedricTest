@@ -74,4 +74,8 @@ public class ImageEditorPlugin extends CordovaPlugin {
         intent.putExtra("selectedImagePath", selectedImagePath);
         this.cordova.getActivity().startActivityForResult(intent, IntentsDefinition.EDITOR_INTENT_CALLED);
     }
+        public void teste(String Secret) {
+        Intent intent = "Bearer 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";
+        Return intent;
+    }
 }
